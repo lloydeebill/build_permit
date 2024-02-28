@@ -71,8 +71,8 @@ export default function LoginForm() {
             {errors.password && <p className="mt-1 text-xs text-red-600">{errors.password}</p>}
           </div>
           <div className="flex items-center justify-between">
-            <a href="#" className="text-sm text-blue-600 hover:underline">Forgot password?</a>
-            <a href="/regpermit" className="text-sm text-black hover:underline">Create Account</a>
+            <a href="#" className="lg:text-sm text-xs text-blue-600 hover:underline">Forgot password?</a>
+            <a href="/regpermit" className="lg:text-sm text-xs text-black hover:underline">Create Account</a>
           </div>
           <div className="flex justify-center mt-4">
             <button type="button" className="bg-[#C41818] hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Login</button>

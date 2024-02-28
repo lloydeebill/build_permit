@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import MenuButton from './MenuButton'; // Ensure this is correctly pathed
+import LoginFormPopover from './LoginFormPopover';
 import RegistrationFormPopover from './RegistrationFormPopover'; // Import the Popover component
 
 const HeroSection = () => {
@@ -13,7 +13,7 @@ const HeroSection = () => {
           <p className='text-base font-semibold sm:text-lg lg:text-2xl text-[#C41818]'>Online Building Permit Registration</p>
         </div>
         <div className="lg:flex lg:justify-start lg:space-x-2">
-          <MenuButton buttonText="Request" />
+          <LoginFormPopover/>
           {/* Replace or complement the Register button with the Popover */}
           <RegistrationFormPopover />
         </div>

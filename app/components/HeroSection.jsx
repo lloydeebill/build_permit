@@ -2,9 +2,12 @@
 import React from 'react';
 import Image from 'next/image';
 import LoginFormPopover from './LoginFormPopover';
-import RegistrationFormPopover from './RegistrationFormPopover'; // Import the Popover component
+import CustomButton from './CustomButton';
 
 const HeroSection = () => {
+
+  const requestOptions = [ 'How It Works'];
+
   return (
     <section className='grid grid-cols-1 lg:grid-cols-12 my-4'>
       <div className='col-span-6 place-self-center place-items-center grid lg:place-items-start'>
@@ -15,7 +18,7 @@ const HeroSection = () => {
         <div className="lg:flex lg:justify-start lg:space-x-2">
           <LoginFormPopover/>
           {/* Replace or complement the Register button with the Popover */}
-          <RegistrationFormPopover />
+          <CustomButton buttonText="Register" href="/regpermit"/>
         </div>
       </div>
 

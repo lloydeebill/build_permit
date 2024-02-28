@@ -11,12 +11,12 @@ const stepTitles = [
 ];
 
 const stepDescriptions = [
-  'Click on the service you want to have by clicking Request PSA button or Register and choose which one you’d like to get.',
-  'Click the Certify and Consent button to acknowledge the collection and use of your personal data for civil registry needs.',
+  'Register to our site so you can have your own account with specific details for your build permits',
+  'Click the Certify and Consent button to acknowledge the collection and use of your personal data for engineering office needs',
   'Provide the details that is asked in the form you’re applying.',
-  'Chat us in our Facebook Page, LCR Office of Buenavista for us to confirm your application.',
+  'Contact us in our number or facebook page for us to confirm your application.',
   'After we’ve confirmed your application, instructions for online payment will be given according to your convenience.',
-  'You’ll be receiving a message from us when your request is fulfilled and ready for you to  pick-up at our office.',
+  'You’ll be receiving a message from us when your request is fulfilled and ready for you to pick-up at our office.',
 ];
 
 const StepSection = () => {
@@ -26,7 +26,7 @@ const StepSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Array.from({ length: 6 }, (_, index) => (
           <div key={index} className="bg-gray-100 p-6 rounded-3xl text-center shadow-2xl">
-            <div className="flex items-center justify-center w-20 h-20 border-2 border-[#96CFCC] text-[#96CFCC] font-bold text-4xl rounded-full mb-4 mx-auto">
+            <div className="flex items-center justify-center w-20 h-20 border-2 border-blue-400 text-blue-400 font-bold text-4xl rounded-full mb-4 mx-auto">
               {index + 1}
             </div>
             <h2 className="text-xl font-bold mb-2">{stepTitles[index]}</h2>

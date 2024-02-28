@@ -22,7 +22,6 @@ const AboutSection = () => {
             <p className='text-base lg:text-lg text-left'>
               Use any devices to process your building permit; phone, tablet or your personal computer. One click away to process your building!
             </p>
-            <CustomButton buttonText="Learn More" href="/howitworks"/>
           </div>
           <div>
             <h2 className='text-center lg:text-left text-xl font-bold lg:text-2xl'>Legal and Secure Information</h2>
@@ -53,9 +52,6 @@ const AboutSection = () => {
             <p className='text-base lg:text-lg text-left'>
               Use any devices to process your building permit; phone, tablet or your personal computer. One click away to process your building!
             </p>
-            <div className="flex justify-center md:justify-center">
-              <CustomButton buttonText="Learn More" href="/howitworks"/>
-            </div>
           </div>
           <Image 
             src="/about2.svg"

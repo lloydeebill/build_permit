@@ -33,8 +33,8 @@ const LoginFormPopover = () => {
             <div className="bg-slate-200 p-2 rounded-lg shadow-lg relative">
               {/* Title and Close Button */}
               <div className="flex items-center justify-center mb-4">
-                <h2 className="text-center sm:text-lg font-semibold text-[#C41818]">LOGIN ACCOUNT</h2>
-                <XMarkIcon className="h-5 w-5 cursor-pointer text-gray-700 absolute top-3 right-4" onClick={onClose} />
+                <h2 className="text-center sm:text-lg font-semibold text-[#C41818] mt-2">LOGIN ACCOUNT</h2>
+                <XMarkIcon className="h-5 w-5 cursor-pointer text-gray-700 absolute top-5 right-4" onClick={onClose} />
               </div>
               <LoginForm />
             </div>

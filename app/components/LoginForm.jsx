@@ -72,10 +72,10 @@ export default function LoginForm() {
           </div>
           <div className="flex items-center justify-between">
             <a href="#" className="text-sm text-blue-600 hover:underline">Forgot password?</a>
-            <button type="submit" className="text-sm px-4 py-2  text-black hover:underline">Create Account</button>
+            <a href="/regpermit" className="text-sm text-black hover:underline">Create Account</a>
           </div>
           <div className="flex justify-center mt-4">
-            <button type="button" className="bg-[#C41818] hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Register</button>
+            <button type="button" className="bg-[#C41818] hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Login</button>
           </div>
         </form>
     </div>

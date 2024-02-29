@@ -25,7 +25,7 @@ const StepSection = () => {
       <h1 className="text-4xl font-bold mb-8 ">HOW DOES IT WORK?</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Array.from({ length: 6 }, (_, index) => (
-          <div key={index} className="bg-gray-100 p-6 rounded-3xl text-center shadow-2xl">
+          <div key={index} className="bg-gray-100 p-6 rounded-3xl text-center shadow-xl mt-0">
             <div className="flex items-center justify-center w-20 h-20 border-2 border-blue-400 text-blue-400 font-bold text-4xl rounded-full mb-4 mx-auto">
               {index + 1}
             </div>

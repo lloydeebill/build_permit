@@ -21,7 +21,7 @@ const navLinks = [
     },
     {
         title: "Login",
-        path: "/",
+        path: "/buildpermit",
     },
 ]; 
 

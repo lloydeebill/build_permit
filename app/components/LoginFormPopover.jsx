@@ -36,7 +36,7 @@ const LoginFormPopover = () => {
                 <h2 className="text-center sm:text-lg font-semibold text-[#C41818] mt-2">LOGIN ACCOUNT</h2>
                 <XMarkIcon className="h-5 w-5 cursor-pointer text-gray-700 absolute top-5 right-4" onClick={onClose} />
               </div>
-              <LoginForm />
+              <LoginForm  />
             </div>
           </div>
         </Popover.Panel>

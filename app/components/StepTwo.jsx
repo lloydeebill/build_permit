@@ -215,7 +215,7 @@ const StepTwo = () => {
           {/* Applicant's Identification */}
           <div className="mb-4">
             <label htmlFor="tin" className="block text-sm font-medium text-gray-700">
-              TIN *
+              TIN:
             </label>
             <input
               type="text"

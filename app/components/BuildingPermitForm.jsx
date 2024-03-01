@@ -2,6 +2,10 @@
 import React, { useState } from 'react';
 import StepOne from './StepOne';
 import StepTwo from './StepTwo';
+import StepThree from './StepThree';
+import StepFour from './StepFour';
+import StepFive from './StepFive';
+
 import { ArchiveBoxArrowDownIcon, UserCircleIcon, BuildingOfficeIcon, UserGroupIcon, NewspaperIcon } from "@heroicons/react/24/solid";
 
 const BuildingPermitForm = () => {

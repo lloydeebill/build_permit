@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 import React, { useState } from 'react';
 
 const StepTwo = () => {
@@ -215,7 +218,7 @@ const StepTwo = () => {
           {/* Applicant's Identification */}
           <div className="mb-4">
             <label htmlFor="tin" className="block text-sm font-medium text-gray-700">
-              TIN:
+              TIN
             </label>
             <input
               type="text"
@@ -268,14 +271,14 @@ const StepTwo = () => {
           placeholder="Enter place issued"
           required
         />
-        <p className="text-xs text-gray-500 mt-1">Note: Type "N/A" if place of issuance is unknown.</p>
+        <p className="text-xs text-gray-500 mt-1">Note: Type &quot;N/A&quot; if place of issuance is unknown.</p>
       </div>
     </div>
 
           {/* Lot Owner's Fullname */}
           <div className="mb-4">
             <label htmlFor="lotOwnerName" className="block text-sm font-medium text-gray-700">
-              Lot Owner's Fullname
+              Lot Owner&apos;s Fullname
             </label>
             <input
               type="text"
@@ -299,7 +302,7 @@ const StepTwo = () => {
           </div>
           <div className="mb-4">
             <label htmlFor="lotOwnerIdentification" className="block text-sm font-medium text-gray-700">
-              Lot Owner's Identification:
+              Lot Owner&apos;s Identification:
             </label>
             <input
               type="text"
@@ -313,7 +316,7 @@ const StepTwo = () => {
       {/* Date input */}
       <div>
         <label htmlFor="dateInput" className="block text-sm font-medium text-gray-700">
-          Select Date
+          Select Date: 
         </label>
         <input
           type="date"
@@ -327,7 +330,7 @@ const StepTwo = () => {
       {/* Place Issued */}
       <div className="flex-1">
         <label htmlFor="placeIssued" className="block text-sm font-medium text-gray-700">
-          Place Issued *
+          Place Issued: 
         </label>
         <input
           type="text"
@@ -338,7 +341,7 @@ const StepTwo = () => {
           placeholder="Enter place issued"
           required
         />
-        <p className="text-xs text-gray-500 mt-1">Note: Type "N/A" if place of issuance is unknown.</p>
+        <p className="text-xs text-gray-500 mt-1">Note: Type &quot;N/A&quot; if place of issuance is unknown.</p>
       </div>
     </div>
           

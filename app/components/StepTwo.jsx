@@ -142,7 +142,7 @@ const StepTwo = () => {
             id="zipCode"
             value={zipCode}
             onChange={(e) => setZipCode(e.target.value)}
-            className="mt-1 block w-full rounded-md border border-green-500 shadow-sm"
+            className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm"
             required
           />
         </div>
@@ -157,7 +157,7 @@ const StepTwo = () => {
             id="street"
             value={street}
             onChange={(e) => setStreet(e.target.value)}
-            className="mt-1 block w-full rounded-md border border-green-500 shadow-sm"
+            className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm"
             required
           />
         </div>
@@ -172,7 +172,7 @@ const StepTwo = () => {
             id="houseNo"
             value={houseNo}
             onChange={(e) => setHouseNo(e.target.value)}
-            className="mt-1 block w-full rounded-md border border-green-500 shadow-sm"
+            className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm"
             required
           />
         </div>

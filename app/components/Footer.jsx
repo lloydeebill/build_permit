@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         </div>
 
-        <div className="bg-red-600 flex justify-between lg:text-xl text-xs text-white items-center flex-wrap mt-5 border-t border-gray-300 sm:px-16 px-6 py-2">
+        <div className="bg-green-800 flex justify-between lg:text-xl text-xs text-white items-center flex-wrap mt-5 border-t border-gray-300 sm:px-16 px-6 py-2">
           <p className="flex-1 flex max-sm:mt-4 gap-10 z-10">@2024 Engineering Office. All Rights Reserved</p>
           <div className="flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10 z-10">
             <Link href="/" className="hover:text-blue-400">

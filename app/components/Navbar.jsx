@@ -29,7 +29,7 @@ const navLinks = [
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className='fixed top-0 left-0 right-0 z-10 bg-red-600 bg-opacity-90 shadow-2xl shadow-blue-400'>
+        <nav className='fixed top-0 left-0 right-0 z-10 bg-green-800 bg-opacity-90 shadow-2xl shadow-blue-400'>
             <div className="flex flex-wrap items-center justify-between mx-auto px-10 py-2">
             <Image 
             src="/navlogo.svg"

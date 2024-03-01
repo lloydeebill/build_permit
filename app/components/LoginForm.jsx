@@ -30,7 +30,7 @@ function LoginForm({ navigate }) { // Receive navigate as a prop
         <div>
           <div className="flex items-center mb-2">
             <UserCircleIcon className="h-4 w-4 relative mr-1" />
-            <label htmlFor="username" className="text-sm font-semibold mb-0 mr-2 text-[#C41818]">Username:</label>
+            <label htmlFor="username" className="text-sm font-semibold mb-0 mr-2 text-green-600">Username:</label>
           </div>
           <input
             id="username"
@@ -45,7 +45,7 @@ function LoginForm({ navigate }) { // Receive navigate as a prop
         <div>
           <div className="flex items-center mb-2">
             <LockClosedIcon className="h-4 w-4 relative mr-1" />
-            <label htmlFor="password" className="text-sm font-semibold mb-0 mr-2 text-[#C41818]">Password:</label>
+            <label htmlFor="password" className="text-sm font-semibold mb-0 mr-2 text-green-600">Password:</label>
           </div>
           <input
             id="password"
@@ -63,7 +63,7 @@ function LoginForm({ navigate }) { // Receive navigate as a prop
           <a href="/regpermit" className="text-sm text-black hover:underline">Create Account</a>
         </div>
         <div className="flex justify-center mt-4">
-          <button type="submit" className="bg-[#C41818] hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Login</button>
+          <button type="submit" className="bg-green-600 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Login</button>
         </div>
       </form>
     </div>

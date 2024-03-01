@@ -30,28 +30,28 @@ const BuildingPermitForm = () => {
         <h1 className="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6 p-4">BUILDING PERMIT APPLICATION</h1>
 
         {/* Navigation for steps */}
-        <div className="flex flex-col md:flex-row justify-between items-stretch border-2 border-red-600 text-black">
-          <div className={`flex-1 ${currentStep === 1 ? 'bg-red-600 text-white' : ''}`}>
+        <div className="flex flex-col md:flex-row justify-between items-stretch border-2 border-green-600 text-black">
+          <div className={`flex-1 ${currentStep === 1 ? 'bg-green-600 text-white' : ''}`}>
             <button onClick={() => setCurrentStep(1)} className="w-full h-full flex flex-col items-center justify-center py-2"> 
               <ArchiveBoxArrowDownIcon className='h-5 w-5' />Application
             </button>
           </div>
-          <div className={`flex-1 ${currentStep === 2 ? 'bg-red-600 text-white' : ''}`}>
+          <div className={`flex-1 ${currentStep === 2 ? 'bg-green-600 text-white' : ''}`}>
             <button onClick={() => setCurrentStep(2)} className="w-full h-full flex flex-col items-center justify-center py-2"> 
               <UserCircleIcon className='h-5 w-5' />Owner / Applicant
             </button>
           </div>
-          <div className={`flex-1 ${currentStep === 3 ? 'bg-red-600 text-white' : ''}`}>
+          <div className={`flex-1 ${currentStep === 3 ? 'bg-green-600 text-white' : ''}`}>
             <button onClick={() => setCurrentStep(3)} className="w-full h-full flex flex-col items-center justify-center py-2"> 
               <BuildingOfficeIcon className='h-5 w-5' />Building Profile
             </button>
           </div>
-          <div className={`flex-1 ${currentStep === 4 ? 'bg-red-600 text-white' : ''}`}>
+          <div className={`flex-1 ${currentStep === 4 ? 'bg-green-600 text-white' : ''}`}>
             <button onClick={() => setCurrentStep(4)} className="w-full h-full flex flex-col items-center justify-center py-2">
               <UserGroupIcon className='h-5 w-5' />Full-time Project Inspectors
             </button>
           </div>
-          <div className={`flex-1 ${currentStep === 5 ? 'bg-red-600 text-white' : ''}`}>
+          <div className={`flex-1 ${currentStep === 5 ? 'bg-green-600 text-white' : ''}`}>
             <button onClick={() => setCurrentStep(5)} className="w-full h-full flex flex-col items-center justify-center py-2">
               <NewspaperIcon className='h-5 w-5' />Summary
             </button>
@@ -67,9 +67,9 @@ const BuildingPermitForm = () => {
 
         {/* Form navigation buttons */}
         <div className="flex justify-center gap-4 mt-10 mx-2">
-          <button onClick={saveDraft} className="px-6 py-2 text-sm font-semibold rounded-lg bg-[#2962fff9] text-white">SAVE AS DRAFT</button>
-          {currentStep < totalSteps && <button onClick={goToNextStep} className="px-6 py-2 text-sm font-semibold rounded-lg bg-red-600 text-white">NEXT</button>}
           {currentStep > 1 && <button onClick={goToPreviousStep} className="px-6 py-2 text-sm font-semibold rounded-lg bg-gray-500 text-white">BACK</button>}
+          <button onClick={saveDraft} className="px-6 py-2 text-sm font-semibold rounded-lg bg-[#2962fff9] text-white">SAVE AS DRAFT</button>
+          {currentStep < totalSteps && <button onClick={goToNextStep} className="px-6 py-2 text-sm font-semibold rounded-lg bg-green-600 text-white">NEXT</button>}
         </div>
       </div>
     </div>

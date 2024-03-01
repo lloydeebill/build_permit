@@ -5,7 +5,7 @@ const PoweredBy = () => {
   return (
     <section className='grid grid-cols-1 lg:grid-cols-12'>
       <div className='col-span-1 lg:col-span-12'>
-        <div className='bg-gradient-to-r from-[#c4d4fff9] to-[#C41818]  rounded-3xl border border-gray-300 shadow-md mt-5 py-6 px-4 lg:py-8 lg:px-10 lg:rounded-3xl lg:border lg:border-gray-300 lg:shadow-md lg:z-10 lg:flex lg:items-center lg:justify-around'>
+        <div className='bg-gradient-to-r from-[#c4d4fff9] to-[#2a843e]  rounded-3xl border border-gray-300 shadow-md mt-5 py-6 px-4 lg:py-8 lg:px-10 lg:rounded-3xl lg:border lg:border-gray-300 lg:shadow-md lg:z-10 lg:flex lg:items-center lg:justify-around'>
           <div className='md:flex md:items-center md:justify-evenly md:w-full'>
             <Image 
             src="/4.svg"

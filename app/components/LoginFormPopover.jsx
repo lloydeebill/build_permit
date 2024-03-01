@@ -21,7 +21,7 @@ const LoginFormPopover = () => {
     <Popover className="relative">
       <Popover.Button
         onClick={togglePopover}
-        className="relative lg:w-48 mt-2 px-12 py-4 w-full sm:w-fit rounded-full font-semibold text-lg lg:text-xl bg-[#C41818] text-white hover:bg-blue-400"
+        className="relative lg:w-48 mt-2 px-12 py-4 w-full sm:w-fit rounded-full font-semibold text-lg lg:text-xl bg-green-600 text-white hover:bg-blue-400"
       >
         Request
       </Popover.Button>
@@ -33,7 +33,7 @@ const LoginFormPopover = () => {
             <div className="bg-slate-200 p-2 rounded-lg shadow-lg relative">
               {/* Title and Close Button */}
               <div className="flex items-center justify-center mb-4">
-                <h2 className="text-center sm:text-lg font-semibold text-[#C41818] mt-2">LOGIN ACCOUNT</h2>
+                <h2 className="text-center sm:text-lg font-semibold text-black mt-2">LOGIN ACCOUNT</h2>
                 <XMarkIcon className="h-5 w-5 cursor-pointer text-gray-700 absolute top-5 right-4" onClick={onClose} />
               </div>
               <LoginForm  />

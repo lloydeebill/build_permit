@@ -27,20 +27,20 @@ const StepOne = () => {
           <div className="grid gap-6 mb-6 lg:grid-cols-2">
             {/* Left side of the form */}
             <div>
-              <label htmlFor="referenceNo" className="block mb-2 text-sm font-medium text-gray-900">REFERENCE NO.</label>
+              <label htmlFor="referenceNo" className="block mb-2 text-sm font-semibold text-gray-900">REFERENCE NO.</label>
               <input type="text" id="referenceNo" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder="Auto-Generated" disabled />
 
-              <label htmlFor="applicationNumber" className="block mb-2 text-sm font-medium text-gray-900">APPLICATION NUMBER</label>
+              <label htmlFor="applicationNumber" className="block mb-2 text-sm font-semibold text-gray-900">APPLICATION NUMBER</label>
               <input type="text" id="applicationNumber" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder="Auto-Generated" disabled />
 
-              <label htmlFor="areaNo" className="block mb-2 text-sm font-medium text-gray-900">AREA NO.</label>
+              <label htmlFor="areaNo" className="block mb-2 text-sm font-semibold text-gray-900">AREA NO.</label>
               <input type="text" id="areaNo" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder="Enter area number" />
             </div>
 
             {/* Right side of the form */}
             <div>
               <div className="mb-6">
-                <span className="text-sm font-medium text-gray-900">TYPE OF APPLICATION</span>
+                <span className="text-sm font-semibold text-gray-900">TYPE OF APPLICATION</span>
                 <div className="flex items-center mt-2">
                   <input id="typeNew" type="radio" name="typeOfApplication" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500" />
                   <label htmlFor="typeNew" className="ml-2 text-sm font-medium text-gray-900">New</label>
@@ -54,7 +54,7 @@ const StepOne = () => {
 
               {/* Permit also applies to section */}
             <div className="mb-6">
-                <span className="text-sm font-medium text-gray-900">PERMIT ALSO APPLIES TO:</span>
+                <span className="text-sm font-semibold text-gray-900">PERMIT ALSO APPLIES TO:</span>
                 <div className="grid grid-cols-2 gap-2 mt-3">
                 {[
                     { value: 'LocationalClearance', label: 'Locational Clearance' },

@@ -11,7 +11,7 @@ const HowItWorks= () => {
   return (
     <main>
         <Navbar/>
-        <div className="mt-28 container  mx-auto px-12 py-0 pb-10">
+        <div className="mt-28 container  mx-auto px-5 py-0 pb-10">
           <div className="">
           <BuildingPermitForm/>
           <PoweredBy/>

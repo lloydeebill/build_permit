@@ -26,7 +26,7 @@ const BuildingPermitForm = () => {
 
   return (
     <div className="container mx-auto px-0 py-4">
-      <div className="bg-slate-200 rounded-lg shadow-lg lg:px-10 pb-10 overflow-hidden">
+      <div className="bg-slate-200 rounded-lg shadow-lg lg:px-0 pb-10 overflow-hidden">
         <h1 className="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6 p-4">BUILDING PERMIT APPLICATION</h1>
 
         {/* Navigation for steps */}
